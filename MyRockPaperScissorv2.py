@@ -17,10 +17,9 @@ while True:
             break
 
         tasking = computer_random()
-        computer_choice = skills[tasking]
 
-        print("\nYou: " + str(skills[(player_choice)-1]) + " <===> Computer: " + str(computer_choice))
-        if skills[(player_choice)-1] == computer_choice:
+        print("\nYou: " + str(skills[(player_choice)-1]) + " <===> Computer: " + str(skills[tasking]))
+        if skills[(player_choice)-1] == skills[tasking]:
             print("\n\t\t\'It's a Tie\'")
 
             # 1 - 1 == 1 - 1  also 2 - 1 == 2 - 1  also 3 - 3 == 0
