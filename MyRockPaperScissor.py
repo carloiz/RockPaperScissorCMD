@@ -18,7 +18,6 @@ while True:
             break
 
         tasking = computer_random()
-        computer_choice = skills[tasking]
 
         print("\n"+ words[1] +": " + str(skills[(player_choice)-1]) + " <===> "+ words[0] +": " + str(skills[tasking]))
         if skills[(player_choice)-1] == skills[tasking]:
