@@ -6,7 +6,7 @@ computer_score = 0
 player_score = 0
 
 def computer_random():
-    rand_om = random.randrange(0,2)
+    rand_om = random.randrange(0,3)
     return rand_om
 
 while True:
